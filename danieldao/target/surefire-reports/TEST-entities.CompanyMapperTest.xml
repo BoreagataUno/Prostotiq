@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="entities.CompanyMapperTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\project-2-2020-group11\implementation\danieldao\target\test-classes;C:\Users\HOME\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HOME\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HOME\.m2\repository\org\assertj\assertj-core\3.15.0\assertj-core-3.15.0.jar;C:\Users\HOME\.m2\repository\org\mockito\mockito-core\3.2.4\mockito-core-3.2.4.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\HOME\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\HOME\.m2\repository\org\mockito\mockito-junit-jupiter\3.2.4\mockito-junit-jupiter-3.2.4.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\HOME\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\HOME\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\vintage\junit-vintage-engine\5.6.2\junit-vintage-engine-5.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="user.country.format" value="BG"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\usr\lib\jvm\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\HOME\AppData\Local\Temp\surefire441065626602683832 2020-05-27T16-35-27_569-jvmRun1 surefire2347840559490363474tmp surefire_08742687567899111545tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\project-2-2020-group11\implementation\danieldao\target\test-classes;C:\Users\HOME\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HOME\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HOME\.m2\repository\org\assertj\assertj-core\3.15.0\assertj-core-3.15.0.jar;C:\Users\HOME\.m2\repository\org\mockito\mockito-core\3.2.4\mockito-core-3.2.4.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\HOME\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\HOME\.m2\repository\org\mockito\mockito-junit-jupiter\3.2.4\mockito-junit-jupiter-3.2.4.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\HOME\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\HOME\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\vintage\junit-vintage-engine\5.6.2\junit-vintage-engine-5.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HOME"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="D:\project-2-2020-group11\implementation\danieldao\target\classes;C:\Users\HOME\.m2\repository\nl\fontys\sebivenlo\pgranges\0.9.0-SNAPSHOT\pgranges-0.9.0-SNAPSHOT.jar;C:\Users\HOME\.m2\repository\org\postgresql\postgresql\42.2.12\postgresql-42.2.12.jar;C:\Users\HOME\.m2\repository\nl\fontys\sebivenlo\sebidao\0.9.0-SNAPSHOT\sebidao-0.9.0-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\usr\lib\jvm\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\project-2-2020-group11\implementation\danieldao"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HOME\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.2\surefire-booter-2.22.2.jar;C:\Users\HOME\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar;C:\Users\HOME\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar;D:\project-2-2020-group11\implementation\danieldao\target\test-classes;C:\Users\HOME\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HOME\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HOME\.m2\repository\org\assertj\assertj-core\3.15.0\assertj-core-3.15.0.jar;C:\Users\HOME\.m2\repository\org\mockito\mockito-core\3.2.4\mockito-core-3.2.4.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\HOME\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\HOME\.m2\repository\org\mockito\mockito-junit-jupiter\3.2.4\mockito-junit-jupiter-3.2.4.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\HOME\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\HOME\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\HOME\.m2\repository\org\junit\vintage\junit-vintage-engine\5.6.2\junit-vintage-engine-5.6.2.jar;C:\Users\HOME\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\2.22.2\surefire-junit-platform-2.22.2.jar;C:\Users\HOME\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="HOME"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\HOME\Desktop\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\HOME\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HOME\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="D:\project-2-2020-group11\implementation\danieldao"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="bg"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\usr\lib\jvm\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\openjdk\jdk-11.0.7\bin;C:\openjdk\javafx-sdk-14.0.1\lib;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\usr\lib\jvm\jdk-11.0.7\bin;C:\apache-maven-3.6.3\bin;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\HOME\AppData\Local\atom\bin;C:\usr\lib\jvm\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="testCreateCompany" classname="entities.CompanyMapperTest" time="0.037"/>
+</testsuite>

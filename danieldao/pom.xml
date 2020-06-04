@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>daodemo</groupId>
+    <artifactId>daodemodaniel</artifactId>
+    <packaging>jar</packaging>
+    <version>0.9.0-SNAPSHOT</version>
+    <name>danieldao :: Demo</name>
+    <description>The TAO of a DAO in a Demo</description>
+    <parent>
+        <groupId>nl.fontys.sebivenlo</groupId>
+        <artifactId>sebipom</artifactId>
+        <version>2.3.8</version>
+        <relativePath/>
+    </parent>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mainClass>demo.MainDB</mainClass>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>nl.fontys.sebivenlo</groupId>
+            <artifactId>pgranges</artifactId>
+            <version>0.9.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.12</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>nl.fontys.sebivenlo</groupId>
+            <artifactId>sebidao</artifactId>
+            <version>0.9.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <!-- add add-opens lines for all packages in your module that are tested.
+                        For testing it is fine to open your packages for the whole world, which includes
+                        e.g. junit, assertj, and mockito.
+                        Also leave ${atgLine} because it is set/used by the coverage plugin.
+                    -->
+                    <argLine>
+                        ${argLine}
+                        --add-opens nl.fontys.sebidao/nl.fontys.sebivenlo.dao=ALL-UNNAMED
+                        --add-opens nl.fontys.sebidao/nl.fontys.sebivenlo.dao.pg=ALL-UNNAMED
+                        --add-opens nl.fontys.sebidao/nl.fontys.sebivenlo.dao.memory=ALL-UNNAMED
+                        --add-opens myfirstmodule/my.util=ALL-UNNAMED
+                    </argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

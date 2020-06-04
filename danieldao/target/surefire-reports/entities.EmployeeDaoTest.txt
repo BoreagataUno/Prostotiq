@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: entities.EmployeeDaoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.345 s <<< FAILURE! - in entities.EmployeeDaoTest
+t00Size  Time elapsed: 0.032 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
+t01Get  Time elapsed: 0.067 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
+t02GetAll  Time elapsed: 0.048 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
+t03Delete  Time elapsed: 0.055 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
+t04Create  Time elapsed: 0.047 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
+t05Update  Time elapsed: 0.043 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
+tUpdateEmail  Time elapsed: 0.051 s  <<< ERROR!
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "exam"
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.doDDL(EmployeeDaoTest.java:152)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.loadDatabase(EmployeeDaoTest.java:146)
+	at sebidaodemo@0.9.0-SNAPSHOT/entities.EmployeeDaoTest.setupData(EmployeeDaoTest.java:42)
+
